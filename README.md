@@ -36,29 +36,24 @@ After analyzing the Yelp data, we decided it would be best to open a high end Ch
 * **The Upper West Side has a lower density of Chinese restaurants.** This area would be great for our new restaurant due to the lack of surrounding competition.
 
 ### *Repository Structure*
-
-
 >Code 
 * DATA_COLLECTION.ipynb
 * EDA_Notebook.ipynb
 * __ init __ .py
 * helper.py 
 * visualization_code.py
-
 >Data  
 * Restaurant.csv
 * Review.csv
-
 >Visualization
 * Viz_Code.ipynb
 * avg_rating_by_type.png
 * chinese_delivery_and_rating.png
 * Chinese_Restaurant_Map.html
 * restaurants_by_price.png
-
->__ init __ .py  
-
->Phase 1 Presentation.pdf    
-
 >README.md
+>Phase 1 Presentation.pdf  
+>__ init __ .py
+
+
 
