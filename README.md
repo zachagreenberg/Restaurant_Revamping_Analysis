@@ -42,7 +42,8 @@ After analyzing the Yelp data, we decided it would be best to open a high end Ch
 * DATA_COLLECTION.ipynb
 * EDA_Notebook.ipynb
 * __ init __ .py
-* helper.py  
+* helper.py 
+* visualization_code.py
 
 >Data  
 * Restaurant.csv
