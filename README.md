@@ -34,3 +34,30 @@ After analyzing the Yelp data, we decided it would be best to open a high end Ch
 * **To maintain the exclusivity and experience of the restaurant, there will be no delivery option.** The difference in average rating for restaurants that had a delivery option versus no delivery option was insignificant. We decided that it would be wiser to not offer a delivery option because it provided no extra value in terms of better ratings and would allow the restaurant to cut costs.
 
 * **The Upper West Side has a lower density of Chinese restaurants.** This area would be great for our new restaurant due to the lack of surrounding competition.
+
+### *Repository Structure*
+
+
+>Code 
+* DATA_COLLECTION.ipynb
+* EDA_Notebook.ipynb
+* __ init __ .py
+* helper.py  
+
+>Data  
+* Restaurant.csv
+* Review.csv
+
+>Visualization
+* Viz_Code.ipynb
+* avg_rating_by_type.png
+* chinese_delivery_and_rating.png
+* Chinese_Restaurant_Map.html
+* restaurants_by_price.png
+
+>__ init __ .py  
+
+>Phase 1 Presentation.pdf    
+
+>README.md
+
