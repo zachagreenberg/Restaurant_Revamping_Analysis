@@ -1,12 +1,15 @@
-# Restaurant Revamping
+# Opportunity in the NYC Restaurant Scene
 
 Authors: Donna Lee & Zachary Greenberg
 
-## Overview of Business Problem
+<p align="center"><img src="https://github.com/zachagreenberg/Restaurant_Revamping_Analysis/blob/main/Images/readme_cover.png" width="600" height="250" /></p>
+
+
+# Overview 
 
 This project analyzes the Chinese and Italian restaurant scene in New York City to narrow down the location and cuisine type of a possible new restaurant. There's definitely no shortage of either type of restaurant in the city which indicates high demand. We used Yelp data to analyze the ratings, location, modality, and more to narrow down the options.
 
-## Data & Methods
+# Data Collection
 
 This project analyzes a sample of 489 Chinese restaurants and 546 Italian restaurants in New York City. We looked at the following data points to figure out what type of restaurant would be most innovative:
 
@@ -16,7 +19,7 @@ This project analyzes a sample of 489 Chinese restaurants and 546 Italian restau
 * *Sample of 3 Reviews per Restaurant*
 * *Delivery Options*
 
-## Results
+## Data Analysis
 
 ![rating by type](https://github.com/zachagreenberg/Restaurant_Revamping_Analysis/blob/main/Visualization/avg_rating_by_type.png)
 Our data showed that Chinese restaurants on average had lower ratings than Italian restaurants in New York City. We saw this as a challenge to increase the overall average ratings for Chinese restaurants. 
@@ -25,7 +28,7 @@ Our data showed that Chinese restaurants on average had lower ratings than Itali
 When comparing delivery vs rating, we found that Chinese restaurants with no delivery option actually yielded higher ratings.
 
 
-## Conclusions
+# Conclusions
 
 After analyzing the Yelp data, we decided it would be best to open a high end Chinese restaurant in the Upper West Side.
 
@@ -35,25 +38,18 @@ After analyzing the Yelp data, we decided it would be best to open a high end Ch
 
 * **The Upper West Side has a lower density of Chinese restaurants.** This area would be great for our new restaurant due to the lack of surrounding competition.
 
-### *Repository Structure*
->Code 
-* DATA_COLLECTION.ipynb
-* EDA_Notebook.ipynb
-* __ init __ .py
-* helper.py 
-* visualization_code.py
->Data  
-* Restaurant.csv
-* Review.csv
->Visualization
-* Viz_Code.ipynb
-* avg_rating_by_type.png
-* chinese_delivery_and_rating.png
-* Chinese_Restaurant_Map.html
-* restaurants_by_price.png
->README.md
->Phase 1 Presentation.pdf  
->__ init __ .py
-
-
-
+# Next Steps
+ - Perform NLP on the text reviews to truly understand the ratings more.    
+ - Narrow down the zip codes to get a more specified area for ideal restaurant relocation.  
+ 
+------------------------------------------------
+ 
+## *Repository Structure*
+|_ Code  
+|_ Data  
+|_ Visualization  
+|_ .gitignore  
+|_ EDA_Evaluation  
+|_ init.py  
+|_ README.md  
+|_ Restaurant_Presentation.pdf  
